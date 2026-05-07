@@ -100,7 +100,7 @@
     "@angular/language-service": "^14.0.2",
     "@types/bootstrap": "3.3.32",
     "@types/chartist": "0.9.34",
-    "@types/jasmine": "2.8.2",
+    "@types/jasmine": "6.0.0",
     "@types/jquery": "1.10.31",
     "@types/node": "^8.10.66",
     "jasmine-core": "^4.4.0",
