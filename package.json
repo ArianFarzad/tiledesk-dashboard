@@ -56,7 +56,7 @@
     "emoji-regex": "^9.2.2",
     "express": "^4.17.3",
     "file-saver": "^2.0.5",
-    "firebase": "^7.24.0",
+    "firebase": "^12.13.0",
     "googleapis": "19.0.0",
     "hammerjs": "^2.0.8",
     "humanize-duration": "^3.27.1",
