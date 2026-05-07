@@ -1,0 +1,220 @@
+
+Testing /app...
+
+Tested 538 dependencies for known issues, found 68 issues, 2337 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @angular/common@14.2.12 to @angular/common@19.2.16 to fix
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMMON-14135651] in @angular/common@14.2.12
+    introduced by @angular/common@14.2.12
+
+  Upgrade @angular/compiler@14.2.12 to @angular/compiler@19.2.20 to fix
+  ✗ Cross-site Scripting (XSS) (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMPILER-15610286] in @angular/compiler@14.2.12
+    introduced by @angular/compiler@14.2.12
+  ✗ Cross-site Scripting (XSS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMPILER-14908872] in @angular/compiler@14.2.12
+    introduced by @angular/compiler@14.2.12
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMPILER-14157154] in @angular/compiler@14.2.12
+    introduced by @angular/compiler@14.2.12
+
+  Upgrade @angular/core@14.2.12 to @angular/core@19.2.20 to fix
+  ✗ Cross-site Scripting (XSS) (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCORE-15610287] in @angular/core@14.2.12
+    introduced by @angular/core@14.2.12
+  ✗ Cross-site Scripting (XSS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCORE-14908871] in @angular/core@14.2.12
+    introduced by @angular/core@14.2.12
+  ✗ Cross-site Scripting (XSS) (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCORE-15353393] in @angular/core@14.2.12
+    introduced by @angular/core@14.2.12
+
+  Upgrade @angular/localize@14.2.12 to @angular/localize@16.0.6 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-9789073] in brace-expansion@2.0.1
+    introduced by npm@8.19.3 > minimatch@5.1.0 > brace-expansion@2.0.1 and 275 other path(s)
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by @angular/localize@14.2.12 > glob@8.0.3 > inflight@1.0.6 and 255 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-15309438] in minimatch@5.1.0
+    introduced by npm@8.19.3 > minimatch@5.1.0 and 275 other path(s)
+  ✗ Inefficient Algorithmic Complexity (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-15353389] in minimatch@5.1.0
+    introduced by npm@8.19.3 > minimatch@5.1.0 and 275 other path(s)
+
+  Upgrade bootstrap@3.4.0 to bootstrap@5.0.0 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BOOTSTRAP-173700] in bootstrap@3.4.0
+    introduced by bootstrap@3.4.0 and 1 other path(s)
+  ✗ Cross-site Scripting [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BOOTSTRAP-7444617] in bootstrap@3.4.0
+    introduced by bootstrap@3.4.0 and 1 other path(s)
+
+  Upgrade chartist@0.11.0 to chartist@1.3.1 to fix
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-CHARTIST-7850459] in chartist@0.11.0
+    introduced by chartist@0.11.0
+
+  Upgrade express@4.18.2 to express@4.22.0 to fix
+  ✗ Cross-site Scripting [Low Severity][https://security.snyk.io/vuln/SNYK-JS-SEND-7926862] in send@0.18.0
+    introduced by express@4.18.2 > send@0.18.0 and 1 other path(s)
+  ✗ Cross-site Scripting [Low Severity][https://security.snyk.io/vuln/SNYK-JS-SERVESTATIC-7926865] in serve-static@1.15.0
+    introduced by express@4.18.2 > serve-static@1.15.0
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PATHTOREGEXP-8482416] in path-to-regexp@0.1.7
+    introduced by express@4.18.2 > path-to-regexp@0.1.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-COOKIE-8163060] in cookie@0.5.0
+    introduced by express@4.18.2 > cookie@0.5.0
+  ✗ Cross-site Scripting [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-EXPRESS-7926867] in express@4.18.2
+    introduced by express@4.18.2
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PATHTOREGEXP-7925106] in path-to-regexp@0.1.7
+    introduced by express@4.18.2 > path-to-regexp@0.1.7
+  ✗ Open Redirect [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-EXPRESS-6474509] in express@4.18.2
+    introduced by express@4.18.2
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-14724253] in qs@6.11.0
+    introduced by express@4.18.2 > qs@6.11.0 and 3 other path(s)
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-15268416] in qs@6.11.0
+    introduced by express@4.18.2 > qs@6.11.0 and 1 other path(s)
+  ✗ Asymmetric Resource Consumption (Amplification) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-7926860] in body-parser@1.20.1
+    introduced by express@4.18.2 > body-parser@1.20.1
+
+  Upgrade firebase@7.24.0 to firebase@10.9.0 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FIREBASEAUTH-8383231] in @firebase/auth@0.15.0
+    introduced by firebase@7.24.0 > @firebase/auth@0.15.0
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFETCH-2342118] in node-fetch@2.6.1
+    introduced by firebase@7.24.0 > @firebase/firestore@1.18.0 > node-fetch@2.6.1 and 1 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FIREBASEUTIL-1038324] in @firebase/util@0.3.2
+    introduced by firebase@7.24.0 > @firebase/util@0.3.2 and 27 other path(s)
+
+  Upgrade googleapis@19.0.0 to googleapis@124.0.0 to fix
+  ✗ Integer Overflow or Wraparound [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-14125097] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Open Redirect [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-2330875] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-2331908] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Improper Verification of Cryptographic Signature [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-2430337] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Improper Verification of Cryptographic Signature [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-2430341] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REQUEST-3361831] in request@2.88.2
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > request@2.88.2 and 1 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873] in tough-cookie@2.5.0
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > request@2.88.2 > tough-cookie@2.5.0 and 1 other path(s)
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-14125745] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Improper Verification of Cryptographic Signature [High Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-2430339] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-598677] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-ASYNC-2441827] in async@2.3.0
+    introduced by googleapis@19.0.0 > async@2.3.0
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-14724253] in qs@6.11.0
+    introduced by express@4.18.2 > qs@6.11.0 and 3 other path(s)
+  ✗ Interpretation Conflict [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-14114940] in node-forge@0.7.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > gtoken@1.2.3 > google-p12-pem@0.1.2 > node-forge@0.7.6
+  ✗ Predictable Value Range from Previous Values [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-10841150] in form-data@2.3.3
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > request@2.88.2 > form-data@2.3.3 and 1 other path(s)
+
+  Upgrade marked@2.1.3 to marked@4.0.10 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-MARKED-2342073] in marked@2.1.3
+    introduced by marked@2.1.3
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-MARKED-2342082] in marked@2.1.3
+    introduced by marked@2.1.3
+
+  Upgrade npm@8.19.3 to npm@11.6.4 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-9789073] in brace-expansion@2.0.1
+    introduced by npm@8.19.3 > minimatch@5.1.0 > brace-expansion@2.0.1 and 275 other path(s)
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by @angular/localize@14.2.12 > glob@8.0.3 > inflight@1.0.6 and 255 other path(s)
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15032660] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Improper Handling of Unicode Encoding [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15038581] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15127355] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Uncontrolled Resource Consumption ('Resource Exhaustion') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-6476909] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Incorrect Control Flow Scoping (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TOOTALLNATEONCE-15250612] in @tootallnate/once@2.0.0
+    introduced by npm@8.19.3 > make-fetch-happen@10.2.1 > http-proxy-agent@5.0.0 > @tootallnate/once@2.0.0 and 39 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-15309438] in minimatch@5.1.0
+    introduced by npm@8.19.3 > minimatch@5.1.0 and 275 other path(s)
+  ✗ Inefficient Algorithmic Complexity (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-15353389] in minimatch@5.1.0
+    introduced by npm@8.19.3 > minimatch@5.1.0 and 275 other path(s)
+  ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15307072] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Symlink Attack (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15416075] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Symlink Attack (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15456201] in tar@6.1.11
+    introduced by npm@8.19.3 > tar@6.1.11 and 86 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@6.3.0
+    introduced by @angular/localize@14.2.12 > @babel/core@7.18.9 > semver@6.3.0 and 311 other path(s)
+
+  Upgrade sweetalert2@11.10.6 to sweetalert2@11.22.4 to fix
+  ✗ Undesired Behavior [Low Severity][https://security.snyk.io/vuln/SNYK-JS-SWEETALERT2-2774674] in sweetalert2@11.10.6
+    introduced by sweetalert2@11.10.6
+
+
+Issues with no direct upgrade or patch:
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AJV-15274295] in ajv@6.12.6
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > request@2.88.2 > har-validator@5.1.5 > ajv@6.12.6 and 1 other path(s)
+  This issue was fixed in versions: 6.14.0, 8.18.0
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BABELHELPERS-9397697] in @babel/helpers@7.20.6
+    introduced by @angular/localize@14.2.12 > @babel/core@7.18.9 > @babel/helpers@7.20.6
+  This issue was fixed in versions: 7.26.10, 8.0.0-alpha.17
+  ✗ Incomplete List of Disallowed Inputs [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-BABELTRAVERSE-5962462] in @babel/traverse@7.20.5
+    introduced by @angular/localize@14.2.12 > @babel/core@7.18.9 > @babel/traverse@7.20.5 and 2 other path(s)
+  This issue was fixed in versions: 7.23.2, 8.0.0-alpha.4
+  ✗ Excessive Platform Resource Consumption within a Loop [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727] in braces@3.0.2
+    introduced by sass@1.56.1 > chokidar@3.5.3 > braces@3.0.2
+  This issue was fixed in versions: 3.0.3
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-DIFF-14917201] in diff@5.1.0
+    introduced by npm@8.19.3 > libnpmdiff@4.0.5 > diff@5.1.0
+  This issue was fixed in versions: 3.5.1, 4.0.4, 5.2.2, 8.0.3
+  ✗ Uncontrolled Resource Consumption ('Resource Exhaustion') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-GRPCGRPCJS-7242922] in @grpc/grpc-js@1.7.3
+    introduced by firebase@7.24.0 > @firebase/firestore@1.18.0 > @grpc/grpc-js@1.7.3
+  This issue was fixed in versions: 1.8.22, 1.9.15, 1.10.9
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-HTTPCACHESEMANTICS-3248783] in http-cache-semantics@4.1.0
+    introduced by npm@8.19.3 > make-fetch-happen@10.2.1 > http-cache-semantics@4.1.0 and 39 other path(s)
+  This issue was fixed in versions: 4.1.1
+  ✗ Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-IMMUTABLE-15423650] in immutable@4.1.0
+    introduced by sass@1.56.1 > immutable@4.1.0
+  This issue was fixed in versions: 3.8.3, 4.3.8, 5.1.5
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-IP-12704893] in ip@2.0.0
+    introduced by npm@8.19.3 > make-fetch-happen@10.2.1 > socks-proxy-agent@7.0.0 > socks@2.7.0 > ip@2.0.0 and 39 other path(s)
+  No upgrade or patch available
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-IP-12761655] in ip@2.0.0
+    introduced by npm@8.19.3 > make-fetch-happen@10.2.1 > socks-proxy-agent@7.0.0 > socks@2.7.0 > ip@2.0.0 and 39 other path(s)
+  No upgrade or patch available
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-IP-6240864] in ip@2.0.0
+    introduced by npm@8.19.3 > make-fetch-happen@10.2.1 > socks-proxy-agent@7.0.0 > socks@2.7.0 > ip@2.0.0 and 39 other path(s)
+  This issue was fixed in versions: 1.1.9, 2.0.1
+  ✗ Server-Side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IP-7148531] in ip@2.0.0
+    introduced by npm@8.19.3 > make-fetch-happen@10.2.1 > socks-proxy-agent@7.0.0 > socks@2.7.0 > ip@2.0.0 and 39 other path(s)
+  No upgrade or patch available
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-JSON5-3182856] in json5@2.2.1
+    introduced by @angular/localize@14.2.12 > @babel/core@7.18.9 > json5@2.2.1
+  This issue was fixed in versions: 1.0.2, 2.2.2
+  ✗ Improper Verification of Cryptographic Signature [High Severity][https://security.snyk.io/vuln/SNYK-JS-JWS-14188253] in jws@3.2.2
+    introduced by googleapis@19.0.0 > google-auth-library@0.10.0 > jws@3.2.2 and 1 other path(s)
+  This issue was fixed in versions: 3.2.3, 4.0.1
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LODASH-15053838] in lodash@4.17.21
+    introduced by googleapis@19.0.0 > async@2.3.0 > lodash@4.17.21
+  This issue was fixed in versions: 4.17.23
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-PROTOBUFJS-5756498] in protobufjs@6.11.3
+    introduced by firebase@7.24.0 > @firebase/firestore@1.18.0 > @grpc/proto-loader@0.5.6 > protobufjs@6.11.3
+  This issue was fixed in versions: 6.11.4, 7.2.4
+
+
+
+Organization:      arianfarzad
+Package manager:   npm
+Target file:       package-lock.json
+Project name:      @tiledesk/tiledesk-dashboard
+Open source:       no
+Project path:      /app
+Licenses:          enabled
+
+
+
+ ERROR   Forbidden (SNYK-CLI-0000)
+         The encountered error only provides basic information, please take a look at   
+         the given details. If they do not help to resolve the issue, consider          
+         debugging or consulting support.                                               
+                                                                                        
+           Forbidden                                                                    
+
+Status:  403 Forbidden 
+Docs:    https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-cli-0000 
+                                                                         
+ID:      urn:snyk:interaction:071720b7-401e-4c7e-9e78-0679bad17ee1 
