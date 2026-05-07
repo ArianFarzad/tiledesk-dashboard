@@ -30,7 +30,7 @@
     "@angular/core": "^14.2.2",
     "@angular/forms": "^14.2.2",
     "@angular/localize": "^14.2.2",
-    "@angular/material": "^14.2.2",
+    "@angular/material": "^21.2.10",
     "@angular/material-moment-adapter": "^14.2.2",
     "@angular/platform-browser": "^14.2.2",
     "@angular/platform-browser-dynamic": "^14.2.2",
