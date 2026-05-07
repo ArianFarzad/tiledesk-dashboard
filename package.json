@@ -78,7 +78,7 @@
     "ngx-mat-timepicker": "^14.0.2",
     "ngx-moment": "^6.0.2",
     "ngx-skeleton-loader": "^6.0.0",
-    "npm": "^8.19.1",
+    "npm": "^11.14.0",
     "perfect-scrollbar": "1.1.0",
     "roboto-fontface": "^0.10.0",
     "rxjs": "^6.5.4",
