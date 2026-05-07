@@ -104,7 +104,7 @@
     "@types/jquery": "1.10.31",
     "@types/node": "^8.10.66",
     "jasmine-core": "^4.4.0",
-    "jasmine-spec-reporter": "~4.2.1",
+    "jasmine-spec-reporter": "~7.0.0",
     "karma": "^6.4.1",
     "karma-chrome-launcher": "~2.2.0",
     "karma-cli": "~1.0.1",
