@@ -29,7 +29,7 @@
     "@angular/compiler": "^14.2.2",
     "@angular/core": "^14.2.2",
     "@angular/forms": "^14.2.2",
-    "@angular/localize": "^14.2.2",
+    "@angular/localize": "^21.2.12",
     "@angular/material": "^14.2.2",
     "@angular/material-moment-adapter": "^14.2.2",
     "@angular/platform-browser": "^14.2.2",
